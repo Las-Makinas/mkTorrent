@@ -6,7 +6,6 @@ notifications:
 
 addons:
   sonarcloud:
-    organization: "lasmakinas"
     token: $SONAR_TOKEN
 
 script:
