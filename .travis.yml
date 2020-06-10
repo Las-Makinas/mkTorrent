@@ -10,4 +10,4 @@ addons:
     token: $SONAR_TOKEN
 
 script:
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=Las-Makinas_mkTorrent
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
