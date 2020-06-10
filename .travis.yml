@@ -3,3 +3,13 @@ notifications:
   slack:
     rooms:
     - lasmakinas:NexDLQ76Ui7ELGaAGx7cW9Bo#project-mktorrent
+
+addons:
+  sonarcloud:
+    organization: "las-makinas"
+    token:
+      secure: "VGvJ3URQpB1XAjiYVUc+eJDQhYlfhRbrcahc9L6EurgF+oGN3HBREwBGfTJxjqwlRkAAbiM4SeTIbxB6GbbRNkkrVtAzl7GzJtqIkVM7CY9BTcswKzuyoGU6MQKSXQg6ucXjB48WksOP7p790DsfLfBgMLtfMXofmALJKnT9NOBq12KkO1I9eFuDOFKYK9CfTfcfs2A3Bo862AA3qkxIwzJvqppcteChSQjEXzjElDDyvpMFdbiHrTMOSjawPd+3jKTjbZain1qjc/Cc5/skTpSAVldeut544T2q2zsioM91sDTHlIrVozH7O+WDB2kSzv9dIOit3szzkiYxLwdPY23kbqMvOXRmp+DjLxTfAjgJmEhSC4K39piJq30kNRLtM02sksFOsnOf1HLYbzMMTcWrdoig3q5WwMydqg7h4wQOEXtN39BbMNdsAHZ2jSzdWJPHdbB01UYXZGSMy4FN9IYZvKBGEpnl9NDTZpDiiQDqPRx9kEFdjWTkCAjBGe0d0RPdIUFr/nXYYpctS8c9FHV+US6rDCU3UhXMqTM0mtJQNfltiq3XLHT6IaxoMGGopd3NIMnxlNE+iaVjn96k1HwxvGBomwQ3HGPgnD5PzsBHugFu9euYE4bC4wnvmXUY27c2MX/WBezrSJDAyqqctxomFiz0pBte+yo0GOfG8Ig="
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
