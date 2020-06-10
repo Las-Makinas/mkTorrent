@@ -9,9 +9,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organizationKey>lasmakinas</sonar.organizationKey>
         <sonar.projectKey>Las-Makinas_mkTorrent</sonar.projectKey>
+        <sonar.organization>lasmakinas</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>204b49175dacc7ec14da588391ca1cdda1b0aaa2</sonar.login>
     </properties>
 
     <build>
