@@ -5,7 +5,7 @@ notifications:
     - lasmakinas:NexDLQ76Ui7ELGaAGx7cW9Bo#project-mktorrent
 addons:
   sonarcloud:
-    organization: las-makinas
+    organization: "las-makinas"
     token:
       secure: QeKsWemdz5CYyJ5IgI2O8FTKFr5Y4PeFnlNEG8gg/Hr3iL06wAvF8mhVK/s83R+Vi+55tdFIYgn60x8JIhyD+ilf7yvHyyqSJJ5xW3DreuXEMyVO+9O0FOpzxyqKd5Jv2qJgJbYyhQMHpvWvUyMS+XNURpwj7ou/3mcs4DdJ54/rZkL6pIOro9pYAuAc5u4SC0E/+uZjNT9lRgsJkzSpRcOgNAhrQZA23vzh7v35ouKHv+XfoE/4R9Dpd54hCJcnyVd03V31zqdPm2cAtOG3hLgYVNyYs+T3qnJJ+GHF/plrcqdUz+QENUhbp1UftmTHLGXC3Oc7c/moF5OAxcpfY18LneYNpEULqcWusb1UyGpjRyGyEqQ52vnZDrL4l8btZ5xn/pQ5Sz/Hy6+t2ef60OTxv0smDdVLWj7tudHcSufbgwNcWE66pFlX1dN74rnK9L7dB9uXAtIPmLk10lVZbxN98fKjUGfwsmrB1eei+0S76jMkT7dQsTp62SwNv0yfBDEMW29aCEflvXzHo1JA1Wgi/oIG6WaFXzdRfR/2sRg/yZxu68eJY7xn6c+lYuu5VBR/aL7yi4AbHp9HvE5n2V/UKE+J4S4MRSiS12EGsW8LbjC+mzIPIWXKWn7rfaoxiQtjwKPqyGFxiPnLJYFSzrmR0wsEMOq/X1BaMHa//7I=
 script:
