@@ -10,7 +10,7 @@ public class DummyClassTest {
     @Test
     public void dummyTestHappyPath() {
         int dummyResult = dummyObject.dummyMethod(10);
-        Assert.assertEquals(dummyResult, 1);
+        Assert.assertEquals(1, dummyResult);
     }
 
     @Test(expected = IllegalArgumentException.class)

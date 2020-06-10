@@ -15,7 +15,11 @@ class DummyClass {
         logger.info("Creating array of size = {}, filled with 1s", size);
         int[] arr = new int[size];
         Arrays.fill(arr, 1);
+        logger.info("Some weird stuff");
+        arr[0] = arr[size-1];
+        arr[size-1] = 1;
         logger.info("Success");
+        arr[0] = 1;
         return arr[size - 1];
     }
 }
