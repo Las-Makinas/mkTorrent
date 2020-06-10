@@ -4,10 +4,5 @@ notifications:
     rooms:
     - lasmakinas:NexDLQ76Ui7ELGaAGx7cW9Bo#project-mktorrent
 
-addons:
-  sonarcloud:
-    organization: "lasmakinas"
-    token: $SONAR_TOKEN
-
 script:
 - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
