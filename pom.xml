@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <sonar.host.ur>https://sonarcloud.io</sonar.host.ur>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organizationKey>lasmakinas</sonar.organizationKey>
         <sonar.projectKey>Las-Makinas_mkTorrent</sonar.projectKey>
         <sonar.login>xdTr/ypDhTu4fJ+6kiTFjsElIHa84YQM6L5ycn4t5DGBxUQLwuEmQOF3/jl7j96GsxXKrRgEXqwFBTVLa/R6jX+oVI2mREw5t+qJ3SeA2YKALow0j2wZ5Brp43Wt6RRGRfaoQNgP+vXeCjPPfLEGh74WFKapDc6Ar/aNcyelUu64QSDHGt1I3foviU5+LVvuzjk/1bJvBoitk5wBy1FjxXS0z/SLqk6Lvmtk6RMuzZg/htDGhFP3gx4ipyNq48TXtEEJzI6J8E1VQfalm8i6C1E1IELF1noPGLK7xP5hYFQvKQO8MuCL+jfQ2cgPi2F0smTb/ZfjG5hqo5RWnmZDb19slqYW3xtBiHRm9j4QG0+UY3GYOt0sTjOwXivjquuIpY2eui/AjwP1awm6b4PottctnrE/GKIrUSNG7VUT1JdI1ygFef5ROK244nn6ZEUem9BTFiF7C3A1kIeBeWF/ydMxHr7+4fg6adG6SjDxlB7quFRu6ilI/Q+tqCB7AV+pRN4HNgWe6kyjj5gBHdv3mHdnHQfZXNLWEViXbf+hkT4ZcEDVFXe4pOg5QIORPXHL2JqA8cDjOY3feH899TSkHZgrWBLbMvS8Mz6LRMcb3nxUwlHp56Z2LR9t/5vVfUTU/uyNhB6LfDtCSEK0nQjlDyYNo/7j5t7dRZLpVj+n6fo=</sonar.login>
