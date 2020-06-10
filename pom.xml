@@ -8,6 +8,10 @@
     <artifactId>mkTorrent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <sonar.projectKey>Las-Makinas_mkTorrent</sonar.projectKey>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
