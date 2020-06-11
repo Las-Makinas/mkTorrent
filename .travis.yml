@@ -3,3 +3,10 @@ notifications:
   slack:
     rooms:
     - lasmakinas:NexDLQ76Ui7ELGaAGx7cW9Bo#project-mktorrent
+
+addons:
+  sonarcloud:
+    token: $SONAR_TOKEN
+
+script:
+- mvn clean install sonar:sonar
