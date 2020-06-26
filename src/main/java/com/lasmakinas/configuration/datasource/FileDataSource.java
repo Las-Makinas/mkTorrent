@@ -1,15 +1,15 @@
 package com.lasmakinas.configuration.datasource;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 
 public class FileDataSource implements DataSource {
 
-    private String filename;
-    private Charset charset;
+    private final String filename;
+    private final Charset charset;
 
     public FileDataSource(String filename, Charset charset) {
         this.filename = filename;
@@ -19,7 +19,7 @@ public class FileDataSource implements DataSource {
     @Override
     public String getData() {
         try (BufferedReader bufferedReader = new BufferedReader(
-                new FileReader(new File(filename, String.valueOf(charset))))) {
+                new InputStreamReader(new FileInputStream(filename), charset))) {
             final int BUFFER_SIZE = 1024;
             char[] buffer = new char[BUFFER_SIZE];
             StringBuilder sb = new StringBuilder();
@@ -29,7 +29,6 @@ public class FileDataSource implements DataSource {
             }
             return sb.toString();
         } catch (IOException e) {
-            // TODO do something in case of error
             return null;
         }
     }
