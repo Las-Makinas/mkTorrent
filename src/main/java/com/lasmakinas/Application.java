@@ -24,5 +24,4 @@ public class Application {
         TorrentConfiguration configuration = torrentConfigurator.getConfiguration(parser, fileDataSource);
         logger.info("Configuration: {}", configuration);
     }
-
 }
